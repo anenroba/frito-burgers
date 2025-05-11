@@ -58,3 +58,121 @@
   </main>
 </body>
 </html>
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Frito Burgers</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #FFF9E6 0%, #FFE0B2 50%, #FFC9A9 100%);
+      color: #333;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    .container {
+      background-color: rgba(255, 255, 255, 0.85);
+      border-radius: 16px;
+      padding: 30px;
+      max-width: 350px;
+      width: 90%;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+      font-size: 24px;
+      margin-bottom: 5px;
+      font-weight: bold;
+      color: #D97706; /* Naranja dorado suave */
+    }
+
+    p.subtitle {
+      font-size: 14px;
+      color: #5a4a42;
+      margin-bottom: 25px;
+      line-height: 1.4;
+    }
+
+    .links a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 12px 15px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      text-decoration: none;
+      color: white;
+      font-weight: bold;
+      transition: all 0.3s ease;
+    }
+
+    .links a:hover {
+      opacity: 0.95;
+    }
+
+    .icon {
+      width: 22px;
+      height: 22px;
+      margin-right: 10px;
+    }
+
+    /* Colores por red social */
+    .instagram {
+      background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976);
+    }
+
+    .whatsapp {
+      background-color: #25D366;
+    }
+
+    .google {
+      background-color: #4285F4;
+    }
+
+    footer {
+      margin-top: 20px;
+      font-size: 12px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>Frito Burgers</h1>
+    <p class="subtitle">Sabor venezolano 🇻🇪 en el corazón de La Serena 🇨🇱</p>
+    <div class="links">
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/frito.burgers/" target="_blank" class="instagram">
+        <img src="icons/instagram.svg" alt="Instagram" class="icon" />
+        Síguenos en Instagram
+      </a>
+
+      <!-- WhatsApp -->
+      <a href="https://wa.me/56937531904" target="_blank" class="whatsapp">
+        <img src="icons/whatsapp.svg" alt="WhatsApp" class="icon" />
+        Reserva por WhatsApp
+      </a>
+
+      <!-- Google Reviews -->
+      <a href="https://search.google.com/local/writereview?placeid=ChIJqY-XCrDLkZYRgfsldH9wnnk" target="_blank" class="google">
+        <img src="icons/16px-Google__G__logo.svg.png" alt="Google Reviews" class="icon" />
+        Califícanos en Google
+      </a>
+    </div>
+    <footer>
+      &copy; 2025 Todos los derechos reservados - Desarrollado por <a href="https://obenmedia.cl " target="_blank" rel="noopener noreferrer" style="color: #D97706; text-decoration: underline;">Oben Media</a>
+    </footer>
+  </div>
+
+</body>
+</html>
